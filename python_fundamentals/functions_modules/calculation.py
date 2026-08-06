@@ -1,22 +1,15 @@
 #!/usr/bin/env python3
-"""Module that defines basic arithmetic functions."""
+"""Module that imports calculator functions and prints results for a, b."""
+from calculator_1 import add
+from calculator_1 import sub
+from calculator_1 import mul
+from calculator_1 import div
 
 
-def add(a, b):
-    """Add a and b."""
-    return a + b
-
-
-def sub(a, b):
-    """Subtract b from a."""
-    return a - b
-
-
-def mul(a, b):
-    """Multiply a by b."""
-    return a * b
-
-
-def div(a, b):
-    """Divide a by b."""
-    return a / b
+if __name__ == "__main__":
+    a = 10
+    b = 5
+    print("{} + {} = {}".format(a, b, add(a, b)))
+    print("{} - {} = {}".format(a, b, sub(a, b)))
+    print("{} * {} = {}".format(a, b, mul(a, b)))
+    print("{} / {} = {}".format(a, b, div(a, b)))
