@@ -1,3 +1,3 @@
 #!/usr/bin/env python3
 letters = "".join(chr(i) for i in range(97, 123) if chr(i) not in "qe")
-print("{}".format(letters))
+print("{}".format(letters), end="")
