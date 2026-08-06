@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module that imports add from add_0 and prints 1 + 2 = 3."""
+"""Module that imports the add function and prints 1 + 2 = 3."""
 from add_0 import add
 
 
